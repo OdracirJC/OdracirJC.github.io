@@ -1,0 +1,33 @@
+body
+{
+    background: url('circuit') center fixed no-repeat;
+    padding: 50px;
+    border: 50px;
+    margin: auto;
+    color:white;
+
+
+}
+div
+{
+    float: left;
+}
+#div1
+{
+    padding: 50px;
+    border: 50px;
+    margin: auto;
+    background-color: rgba(0,0,0,0.7);
+    color: white;
+    text-align: center;
+
+}
+#div2
+{
+
+    padding: 50px;
+    border: 50px;
+    margin: auto;
+    height: 400px;
+    width: 500px;
+}

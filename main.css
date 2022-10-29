@@ -1,0 +1,33 @@
+body {
+background:  url('background') center;
+padding: 50px;
+border: 50px;
+margin: auto;
+}
+div
+{
+    float: left;
+    padding: 50px;
+    border: 50px;
+
+    margin: auto;
+}
+h1
+{
+    color: white;
+    border: 50px;
+    border-color: greenyellow;
+}
+h2
+{
+    color:white;
+    border: 50px;
+    border-color: greenyellow;
+}
+#div1
+{
+    width: auto;
+    height: auto;
+    text-align: center;
+
+}

@@ -1,9 +1,50 @@
 <!DOCTYPE html>
 <html>
-  <title>Welcome to My Website</title>
-  <body>
-  <p>
-  Hello, and welcome to my website!
-  </p>
-  </body>
+<head>
+    <link rel="stylesheet" href="main.css">
+
+    <title id="title">288 Wamp Project Home Page</title>
+</head>
+<body>
+<div id="mymusic">
+    <audio id="gza" src="GZA_4thChamber.mp3"></audio>
+    <style>
+     #mymusic
+     {background: url('rubiks') center no-repeat;  margin: auto;
+  width: 370pt; height: 370pt;
+ }
+    </style>
+</div>
+<div id="div1" >
+    <h1 id="menu">288 Wamp Project Menu Form</h1>
+    <h2>What would you like to do?</h2>
+    <!-- Using HTML form -->
+
+	<br>
+    <form action='./students.html' method='get'>
+        <input type='submit' value='Manage Student'/>
+    </form>
+    <br>
+    <form action='./courses.html' method='get'>
+        <input type='submit' value='Manage Course'/>
+    </form>
+    <br>
+    <form action='./schedule.html' method='get'>
+        <input type='submit' value='Manage Schedule'/>
+    </form>
+    <br>
+    <form action='./credits.html' method='get'>
+        <input type='submit' value='Credits'/>
+    </form>
+    <br>
+    <br>
+    <br>
+    <form action='./trials.html' method='get'>
+        <input type='submit' value='Trials'/>
+    </form>
+
+</div>
+<script src="mainmenu.js"></script>
+
+</body>
 </html>
