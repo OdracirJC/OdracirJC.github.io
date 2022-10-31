@@ -1,33 +1,54 @@
 body {
-background:  url('background') center;
+background:  black center;
 padding: 50px;
 border: 50px;
 margin: auto;
 }
-div
-{
-    float: left;
-    padding: 50px;
-    border: 50px;
 
-    margin: auto;
+p
+{
+  color: white;
 }
 h1
 {
-    color: white;
+    color: white; 
     border: 50px;
     border-color: greenyellow;
 }
 h2
 {
-    color:white;
-    border: 50px;
-    border-color: greenyellow;
+  color:white;
 }
-#div1
+#mymusic
 {
-    width: auto;
-    height: auto;
-    text-align: center;
-
+  background: url('rubiks')  no-repeat;
+  float:left;
+  margin: auto;
+  width: 50%;
+  height: 300pt;
 }
+.left
+{
+  float:left;
+  width:50%
+}
+.main
+{
+  float:right;
+  width:50%;
+}
+#clearDiv
+{
+  clear:both;
+}
+#footer
+{
+clear:both;
+}
+#links
+{
+  height:50px;
+  width:50px;
+}
+
+
