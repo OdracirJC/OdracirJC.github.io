@@ -13,29 +13,22 @@ h1
 {
     color: white; 
     border: 50px;
-    border-color: greenyellow;
 }
 h2
 {
   color:white;
 }
-#mymusic
-{
-  background: url('rubiks')  no-repeat;
-  float:left;
-  margin: auto;
-  width: 50%;
-  height: 300pt;
-}
 .left
 {
   float:left;
-  width:50%
+  width:50%;
+  height:50%;
 }
 .main
 {
   float:right;
   width:50%;
+  height: 50%;
 }
 #clearDiv
 {
@@ -44,6 +37,18 @@ h2
 #footer
 {
 clear:both;
+}
+
+
+#rubiks
+{
+  height:50%;
+  width: 50%;
+}
+#bachPic
+{
+  height:50%;
+  width: 50%;
 }
 #links
 {
