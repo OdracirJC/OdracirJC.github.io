@@ -26,6 +26,7 @@ h2
 }
 .main
 {
+  color: white;
   float:right;
   width:50%;
   height: 50%;
@@ -44,6 +45,11 @@ clear:both;
 {
   height:50%;
   width: 50%;
+}
+#flags
+{
+  height:50%;
+  width:50%;
 }
 #bachPic
 {
