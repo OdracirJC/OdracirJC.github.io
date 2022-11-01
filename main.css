@@ -4,7 +4,13 @@ padding: 50px;
 border: 50px;
 margin: auto;
 }
-
+ul{
+  color: white;
+}
+li
+{
+  color: white;
+}
 p
 {
   color: white;
