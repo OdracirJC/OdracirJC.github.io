@@ -1,0 +1,53 @@
+<DOCTYPE! html>
+<html>
+  <head>
+    <title>Calculator</title>
+   <link rel="stylesheet" type="text/css" href="main.css">
+<script>
+      function compute(opcode)
+      {
+        var num1,num2;
+        num1= Number(document.form1.txtNum1.value);
+        num2= Number(document.form1.txtNum2.value);
+        switch(opcode)
+        {
+          case "mult":
+            document.form1.txtSum.value= num1 * num2;
+          break;
+          case "add":
+            document.form1.txtSum.value=num1+num2;
+          break;
+          case "sub":
+            document.form1.txtSum.value=num1-num2;
+          break;
+          case "div":
+            document.form1.txtSum.value=num1/num2;
+          break;
+
+        }
+      }
+    </script>
+  <body class="all">
+  <div class="center">
+    <h1>Calculator</h1>
+    <hr>
+    <br>
+    <br>
+    <br>
+  </div>
+  <div class="left">
+  <form name="form1">
+    <input type="text"name="txtNum1" size=8><br><br>
+    <input type="text" name="txtNum2" size=8><br><br>
+    <input type="button" value="ADD" onclick="compute('add')"> <input type="button" value="MULTIPLY"onclick="compute('mult')"> 
+    <input type="button" value="SUBTRACT" onclick="compute('sub')"> <input type="button" value="DIVIDE"onclick="compute('div')"><br><br>
+    <input type="text" name="txtSum">
+  </form>
+  </div>
+  <div class="clearDiv"></div>
+  <div class="left">
+    <p>Go Back</p>
+    <a href="index.html"><img id="links" src="bachpic.jpeg"></img></a>
+  </div>
+  </body>
+</html>

@@ -1,53 +1,54 @@
-body {
-background:  black center;
+body 
+{
+background: black center;
 padding: 50px;
 border: 50px;
 margin: auto;
 }
-ul{
-  color: white;
+.all
+{
+  background: url("background");
 }
-li
+ul,li,p,h1,h2
 {
   color: white;
 }
-p
-{
-  color: white;
-}
-h1
-{
-    color: white; 
-    border: 50px;
-}
-h2
-{
-  color:white;
-}
+
 .left
 {
+  color: white;
   float:left;
   width:50%;
   height:50%;
 }
+
+.center
+{
+  color: white;
+  text-align: center;
+  width: 100%;
+}
+
 .main
 {
   color: white;
   float:right;
   width:50%;
-  height: 50%;
+  height:50%;
 }
+
 #clearDiv
 {
   clear:both;
 }
 #footer
 {
+text-align:center;
 clear:both;
 }
 
 
-#rubiks
+#bachcgi
 {
   height:50%;
   width: 50%;
@@ -60,7 +61,11 @@ clear:both;
 #bachPic
 {
   height:50%;
-  width: 50%;
+  width:50%;
+}
+#bachPic2
+{
+  height:75%;
 }
 #links
 {
