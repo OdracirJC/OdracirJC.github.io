@@ -1,17 +1,29 @@
 body 
 {
-background: black center;
+attachment: fixed;
+background-image: url("assets/background.jpg");
+background-repeat: no-repeat;
+background-attachment: fixed;
+background-size: cover; 
 padding: 50px;
 border: 50px;
 margin: auto;
 }
-.all
-{
-  background: url("background");
-}
+
 ul,li,p,h1,h2
 {
   color: white;
+  font-family: "Times New Roman", Times, serif;
+  font-weight: 450;
+}
+p
+{
+  text-indent:50px;
+  font-size:12pt;
+}
+h2
+{
+  text-align:center;
 }
 
 .left
@@ -21,7 +33,6 @@ ul,li,p,h1,h2
   width:50%;
   height:50%;
 }
-
 .center
 {
   color: white;
@@ -29,6 +40,13 @@ ul,li,p,h1,h2
   width: 100%;
 }
 
+#slate
+{
+  background-color: #768692;
+  opacity: 0.925;
+  border-radius: .25em;
+  border 
+}
 .main
 {
   color: white;
@@ -37,10 +55,6 @@ ul,li,p,h1,h2
   height:50%;
 }
 
-#clearDiv
-{
-  clear:both;
-}
 #footer
 {
 text-align:center;
@@ -52,11 +66,6 @@ clear:both;
 {
   height:50%;
   width: 50%;
-}
-#flags
-{
-  height:50%;
-  width:50%;
 }
 #bachPic
 {

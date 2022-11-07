@@ -4,6 +4,21 @@
     <title>Calculator</title>
    <link rel="stylesheet" type="text/css" href="main.css">
 <script>
+      const bwv988 = new Audio('assets/aria.mp3');
+
+   function show_image(src, width, height, alt) {
+        var img = document.createElement("img");
+        img.src = src;
+        img.width = width;
+        img.height = height;
+        img.alt = alt;
+        document.body.appendChild(img);
+    }
+      function bach()
+      {
+      var jsb = 'assets/bachpic.jpeg'
+      show_image(jsb,300,300,"J. S. Bach") 
+      }
       function compute(opcode)
       {
         var num1,num2;
@@ -13,41 +28,62 @@
         {
           case "mult":
             document.form1.txtSum.value= num1 * num2;
+            if(num1*num2 == 988)
+            {
+              bwv988.play();
+              bach();
+            }
           break;
           case "add":
             document.form1.txtSum.value=num1+num2;
+            if(num1+num2 == 988){
+              bwv988.play();
+              bach();
+            }
           break;
           case "sub":
             document.form1.txtSum.value=num1-num2;
+            if(num1-num2 == 988){
+              bwv988.play();
+              bach();
+            }
           break;
           case "div":
             document.form1.txtSum.value=num1/num2;
+            if(num1/num2 == 988)
+            {
+              bwv988.play();
+              bach();
+            }
           break;
-
         }
       }
     </script>
   <body class="all">
   <div class="center">
-    <h1>Calculator</h1>
+    <h1 id="slate">Calculator</h1>
     <hr>
     <br>
-    <br>
-    <br>
   </div>
-  <div class="left">
-  <form name="form1">
-    <input type="text"name="txtNum1" size=8><br><br>
-    <input type="text" name="txtNum2" size=8><br><br>
-    <input type="button" value="ADD" onclick="compute('add')"> <input type="button" value="MULTIPLY"onclick="compute('mult')"> 
-    <input type="button" value="SUBTRACT" onclick="compute('sub')"> <input type="button" value="DIVIDE"onclick="compute('div')"><br><br>
+  <div id="slate" class="left">
+  <form id = "slate" style="text-align: justify; text-align-last: center;"name="form1">
+    <br><br>
+    <h5>Input 1</h5>
+    <input type="text"name="txtNum1" size=8>
+    <h5>Input 2</h5>
+    <input type="text" name="txtNum2" size=8>
+    <h5>Operations</h5>
+    <input type="button" value="ADD" onclick="compute('add')">
+    <input type="button" value="MULTIPLY"onclick="compute('mult')"> 
+    <input type="button" value="SUBTRACT" onclick="compute('sub')">
+    <input type="button" value="DIVIDE"onclick="compute('div')">
+    <h5> Result </h5>
     <input type="text" name="txtSum">
+    <br><br>
   </form>
+  <span title="Hey! Before you leave, try to get a result of 988 for a Surprise!"><p><a id="slate" href="index.html">Main Site</a></p></span>
   </div>
-  <div class="clearDiv"></div>
-  <div class="left">
-    <p>Go Back</p>
-    <a href="index.html"><img id="links" src="bachpic.jpeg"></img></a>
+  <div id="right">
   </div>
   </body>
 </html>
